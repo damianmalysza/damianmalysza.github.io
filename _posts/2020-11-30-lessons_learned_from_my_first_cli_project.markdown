@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Lessons Learned From My First CLI Project"
-date:       2020-12-01 01:40:03 +0000
+date:       2020-11-30 20:40:04 -0500
 permalink:  lessons_learned_from_my_first_cli_project
 ---
 
