@@ -1,0 +1,24 @@
+---
+layout: post
+title:      "Sinatra Project - Feeling Conflicted"
+date:       2021-03-08 22:07:45 +0000
+permalink:  sinatra_project_-_feeling_conflicted
+---
+
+I just wrapped up my second project as part of the Flatiron Software Engineering Course. I was initially really excited about this project, because it would be the first application that I've ever made with an actual graphical user interface. As I was going through all the labs and seeing how web pages can be made dynamic using Ruby, I was absolutely amazed at the world of possibilities that this would open up. I thought about all the different applications that I would be able to build ... all the tools I would be able to make to make my life easier. 
+
+I came into this project with some high hopes and spirit ... but then reality hit me. First off, I was *really* excited about my project idea. I had gotten really into the stock market during the pandemic, and I thought to myself "*what about a social network for stocks*. The premise was creating a social space specifically to share your watchlists. I was getting way ahead of myself and thinking about all the possible features that I can build into this application. I had every feature under the sun packed into this application - my initial user stores were something like:
+* As a user, I can make watchlists and put stocks into - *ok cool, not so bad*
+* As a user, I can add friends to see my watchlists - *sounds reasonable enough*
+* As a user, I can make some of my watchlists public, and keep some private - *well yeah, what would be the point of the friends feature without this?*
+* As a user, I can have my friends comment on my watchlists - *... this is starting to sounds like a lot*
+
+As you can (hopefully) tell, this was quite ambitious for someone at my current skillset, but I was really excited to work on it. Oh and on top of all of this, I wanted the application to have a sleek interface and I was going to teach myself how to use Bootstrap. 
+
+So ... what happened? I looked at all my user stories, and I had a very high level idea on how I was going to implement them. I built out the basic features like creating user accounts, making watchlists, adding stocks, etc. I didn't have much trouble with those, give or take a few bugs. I was feeling pretty proud of myself because stuff that I used to think of as really daunting, like fetching data from an API, was pretty easy to implement this time around and I felt a real sense of improvement in my skills since the last project. 
+
+But then I started getting into the actual nitty gritty of the *social* part of this application, and I realized that this was going to be a lot to take on. For one, I thought the 'Friends' feature was going to be quite simple to implement, but then I was realized there were all these specific tiny details that I hadn't thought about. For example, I figured the friends was going to be a binary thing where you're either friends or you're not. But then I took a look into how social media platforms implement this feature and I realized that I had grossly oversimplified it. Not only did I need to figure out how to facilitate the whole process of sending friend requests and accepting/rejecting them, I would need to somehow represent that in the views and have it all tie together. I recognized that was going to take me a lot of time to figure out, so my solution: scrap it. 
+
+My next hurdle was the styling. I've never had a good eye for design/styling, but I heard of this thing called Bootstrap and heard it would help me out a lot with styling. As I started getting into how to use it, I realized that it basically was a pre-made CSS stylesheet that you apply by speciying certain classes in your stylesheet. I already had a bunch of pre-made classes and attributes that I was using for some basic styling and realized that going back retroactively updating all the classes to make use of the Bootstrap framework was going to be a long and tedious task. I went with the basic styling that I had applied as I was developing the app.
+
+Ultimately, I'm left feeling conflicted. I feel conflicted because I did really want to build a super useful and cool application that has features that I would actually want in an application.  In the end, I was left with an application that does basic features of a stock watchlist app without any social elements or any aspects of *sleekness* at all. I do take pride in creating a web application from scratch and I take some comfort in knowing that the stuff that I'm learning later will give me the tools to more easily implement ideas that I have in my head. I learned that I need to plan better (a lesson that I apparently didn't learn from the first project) and need to also look at how technologies that I'm planning on using actually work before trying to use them (e.g., Bootstrap). 
